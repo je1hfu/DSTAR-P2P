@@ -54,6 +54,11 @@ This repository is primarily used as the public-facing project website repositor
 
 The main development repository is managed separately.
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+
 ## License
 
 No license has been added yet.
