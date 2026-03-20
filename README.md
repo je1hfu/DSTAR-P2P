@@ -58,6 +58,26 @@ The main development repository is managed separately.
 
 ```bash
 pip install -r requirements.txt
+```
+
+## GUI Alpha
+
+Run the Tkinter alpha GUI with:
+
+```bash
+py -3 .\20260320_DSTAR-P2P_GUI_V0.1.py
+```
+
+If `.env` exists in the repository root, the GUI will use it to pre-fill `Callsign`, `COM Port`, `GL`, and `Baud Rate`.
+You can also edit those values directly in the top settings area before pressing `接続`.
+
+## CLI Prototype
+
+The existing CLI prototype remains available:
+
+```bash
+py -3 .\20250407_p2p_core_prototype_V0.5_Debugged.py
+```
 
 ## License
 
