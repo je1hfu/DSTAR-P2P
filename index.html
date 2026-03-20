@@ -77,6 +77,44 @@
       color: #1d4ed8;
     }
 
+    .media-grid {
+      display: grid;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .media-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 20px;
+    }
+
+    .media-card h3 {
+      margin: 0;
+      color: #0f172a;
+      font-size: 1.2rem;
+    }
+
+    .media-card p {
+      margin: 12px 0 0;
+    }
+
+    .video-frame {
+      max-width: 720px;
+      margin: 16px auto 0;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #0f172a;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+    }
+
+    .demo-video {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
     ul {
       padding-left: 1.2em;
       margin-bottom: 0;
@@ -154,6 +192,28 @@
           <strong>4. Share Info</strong>
           GLや短文情報を共有
         </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Operation Demo</h2>
+      <p>
+        Concept Flow の流れを、実際のアニメーションで視覚的に確認できるセクションです。
+        まずは1本目として CQ 送信の動きを見られるようにしました。
+      </p>
+      <div class="media-grid">
+        <article class="media-card">
+          <h3>CQ Animation</h3>
+          <p>
+            CQ を送出するときに、画面の表示がどのように変わるかを確認するための動画です。
+          </p>
+          <div class="video-frame">
+            <video class="demo-video" autoplay loop muted playsinline preload="metadata" controls>
+              <source src="assets/videos/dstar-p2p-cq.mp4" type="video/mp4" />
+              お使いのブラウザでは動画を再生できません。assets/videos/dstar-p2p-cq.mp4 を直接開いて確認してください。
+            </video>
+          </div>
+        </article>
       </div>
     </section>
 
